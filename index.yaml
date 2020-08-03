@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  paypal-sandbox-dashboard:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-08-03T18:21:56.754731403-05:00"
+    description: Test various features of the PayPal Sandbox using React.js and PayPal's
+      REST SDK
+    digest: 9f23e7b11ccaabcfaf105da4dfab16ba190a749547374a669a60bb9af682d37f
+    name: paypal-sandbox-dashboard
+    type: application
+    urls:
+    - https://Fairbanks-io.github.io/helm-charts/paypal-sandbox-dashboard-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-08-03T18:21:56.752547041-05:00"
