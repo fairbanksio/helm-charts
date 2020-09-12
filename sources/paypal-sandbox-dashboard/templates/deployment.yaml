@@ -39,6 +39,9 @@ spec:
             httpGet:
               path: /
               port: http
+          env:          
+          - name: "MONGO_URI"
+            value: {{ .Values.mongoURI }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
