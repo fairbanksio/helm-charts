@@ -3,7 +3,18 @@ entries:
   paypal-sandbox-dashboard:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T17:17:14.551655783-05:00"
+    created: "2021-01-18T14:15:33.528274135-06:00"
+    description: Test various features of the PayPal Sandbox using React.js and PayPal's
+      REST SDK
+    digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
+    name: paypal-sandbox-dashboard
+    type: application
+    urls:
+    - paypal-sandbox-dashboard-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-01-18T14:15:33.526935709-06:00"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
@@ -12,4 +23,4 @@ entries:
     urls:
     - paypal-sandbox-dashboard-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-12T17:17:14.550278611-05:00"
+generated: "2021-01-18T14:15:33.525648365-06:00"
