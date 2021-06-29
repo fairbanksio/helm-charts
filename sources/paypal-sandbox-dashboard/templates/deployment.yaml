@@ -40,8 +40,11 @@ spec:
               path: /
               port: http
           env:          
-          - name: "MONGO_URI"
-            value: {{ .Values.mongoURI }}
+            - name: "MONGO_URI"
+              valueFrom:
+                secretKeyRef: 
+                  name: {{ .Values.secretName }}
+                  key: mongoUri
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}

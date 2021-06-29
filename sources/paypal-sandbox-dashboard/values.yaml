@@ -20,7 +20,7 @@ autoscaling:
   #targetMemoryUtilizationPercentage: 75
 minAvailable: 1
 
-mongoURI: ""
+secretName: sandboxsecret
 
 serviceAccount:
   # Specifies whether a service account should be created
