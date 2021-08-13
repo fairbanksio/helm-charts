@@ -8,4 +8,5 @@ Local Helm repository for Kubernetes
 - `helm search repo fairbanks-io`
 
 ### Charts
-- [paypal-sandbox-dashboard](https://github.com/Fairbanks-io/PayPal-Sandbox-Dashboard)
+- [Paypal-Sandbox-Dashboard](https://github.com/Fairbanks-io/PayPal-Sandbox-Dashboard)
+- []()
