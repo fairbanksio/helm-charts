@@ -5,8 +5,7 @@ on:
     branches:
       - 'master'
       - 'main'
-  schedule:
-    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   index:
