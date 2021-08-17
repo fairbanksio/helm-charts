@@ -48,7 +48,7 @@ jobs:
           done <chartsources.txt
 
           # Update the index
-          helm repo index ./packages/
+          helm repo index ./packages/ --url https://github.com/fairbanks-io/helm-charts/raw/master/packages/
           rm -rf index.yaml
           mv ./packages/index.yaml index.yaml
 
