@@ -10,3 +10,4 @@ Local Helm repository for Kubernetes
 ### Charts
 - [Paypal-Sandbox-Dashboard](https://github.com/Fairbanks-io/PayPal-Sandbox-Dashboard)
 - [docker-node-app](https://github.com/jonfairbanks/docker-node-app)
+- [uptime-monitor](https://github.com/Fairbanks-io/uptime-monitor)
