@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   docker-node-app:
   - apiVersion: v2
+    appVersion: 2.0.32
+    created: "2021-08-19T06:56:37.501549856Z"
+    description: A sample Node.js app for testing Docker & Kubernetes
+    digest: 106850ade41737e832b62087166acb57a126c12fe70b37f2982e923844a4f91b
+    name: docker-node-app
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.32.tgz
+    version: 2.0.32
+  - apiVersion: v2
     appVersion: 2.0.31
-    created: "2021-08-19T01:29:36.848427875Z"
+    created: "2021-08-19T06:56:37.500729749Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: de9b8bb4abebc0c2abfea14a4a617adfed18ec6aac531a7594d16ab44e680441
     name: docker-node-app
@@ -13,7 +23,7 @@ entries:
     version: 2.0.31
   - apiVersion: v2
     appVersion: 2.0.27
-    created: "2021-08-19T01:29:36.847683069Z"
+    created: "2021-08-19T06:56:37.500134644Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: cfd52e2bf00ae523d94136f58035d6dd1122ac5bf14e34897a183bbf746b0540
     name: docker-node-app
@@ -23,7 +33,7 @@ entries:
     version: 2.0.27
   - apiVersion: v2
     appVersion: 2.0.25
-    created: "2021-08-19T01:29:36.847060964Z"
+    created: "2021-08-19T06:56:37.499518839Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 364ebf21e173b6bf54bca370bc88519ac3c15f9db7d35add5101b770c1e17271
     name: docker-node-app
@@ -33,8 +43,18 @@ entries:
     version: 2.0.25
   kube-cluster:
   - apiVersion: v2
+    appVersion: 1.0.14
+    created: "2021-08-19T06:56:37.502901268Z"
+    description: Documentation for Kubernetes cluster learnings
+    digest: 26455ad83445ef534aa9678bb9ed041393ed267541eade06622d77b5af27558b
+    name: kube-cluster
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.14.tgz
+    version: 1.0.14
+  - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-08-19T01:29:36.84904988Z"
+    created: "2021-08-19T06:56:37.502229162Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 34f08c457e0657c334f952e2e4c43cd2e14a10681ed9d812c2268c97224bc134
     name: kube-cluster
@@ -45,10 +65,10 @@ entries:
   paypal-sandbox-dashboard:
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2021-08-19T01:29:36.853875318Z"
+    created: "2021-08-19T06:56:37.507661809Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
-    digest: adec6d9be4d204a26c572b5062958a6a6597397d118f4d35403cb7c6186a3cf2
+    digest: b2f782f61dbafec9a8f8ca4f14e784d4b5aa1054d456cedb3f60428f4ff54818
     name: paypal-sandbox-dashboard
     type: application
     urls:
@@ -56,7 +76,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.853326914Z"
+    created: "2021-08-19T06:56:37.507093105Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 25699cdcf863108c4abaa47b3db335f91c3c5906ed93794f12a05b0a02306911
@@ -67,7 +87,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.852021203Z"
+    created: "2021-08-19T06:56:37.506500199Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: c6fcda43927914ede39fa49445b0d8b0b80a63abfd1f3d0e697e02241a8f8c93
@@ -78,7 +98,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.851399698Z"
+    created: "2021-08-19T06:56:37.505261989Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 145b17e4194f7f12d3bcd77055d64e613b762480fbb5a8c16826b118ece2c936
@@ -89,7 +109,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.850773993Z"
+    created: "2021-08-19T06:56:37.504541282Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 5d56622ebb95a549b5034328c43b8bf8fb3ddde265bf677908e84a77893892fb
@@ -100,7 +120,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.850194289Z"
+    created: "2021-08-19T06:56:37.503940277Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
@@ -111,7 +131,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-19T01:29:36.849594384Z"
+    created: "2021-08-19T06:56:37.503393072Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
@@ -123,9 +143,9 @@ entries:
   uptime-monitor:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2021-08-19T01:29:36.856251337Z"
+    created: "2021-08-19T06:56:37.51115134Z"
     description: A Helm chart for Kubernetes
-    digest: 3345387e627fcb8ccb4134f7d8b010198c19fc72c96c487d69cade1fb035ad66
+    digest: f5f2682e7b8f33334a58e04deccc75ccbd6a19df28e23030312e4f7534db3ba1
     name: uptime-monitor
     type: application
     urls:
@@ -133,7 +153,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-08-19T01:29:36.855660332Z"
+    created: "2021-08-19T06:56:37.510164531Z"
     description: A Helm chart for Kubernetes
     digest: fc6d52440cfca146a52c2f1fa22c31272fbfdbba3459110af802f4c7607901ff
     name: uptime-monitor
@@ -143,7 +163,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2021-08-19T01:29:36.855079227Z"
+    created: "2021-08-19T06:56:37.50892582Z"
     description: A Helm chart for Kubernetes
     digest: 74dd4e0cfcd8eaced65872736e0f7569c315bd1ee42429a7df89c245ecc2733e
     name: uptime-monitor
@@ -153,7 +173,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3"1.16.0"
-    created: "2021-08-19T01:29:36.854404822Z"
+    created: "2021-08-19T06:56:37.508305615Z"
     description: A Helm chart for Kubernetes
     digest: 8259a61b0178ee7398b1c2d4dadb245be1394d7a1b25656e477fe2dd90b8c260
     name: uptime-monitor
@@ -161,4 +181,4 @@ entries:
     urls:
     - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.3.tgz
     version: 0.1.3
-generated: "2021-08-19T01:29:36.846023056Z"
+generated: "2021-08-19T06:56:37.498699532Z"
