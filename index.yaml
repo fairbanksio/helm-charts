@@ -3,9 +3,9 @@ entries:
   docker-node-app:
   - apiVersion: v2
     appVersion: 2.0.31
-    created: "2021-08-18T07:55:18.298685195Z"
+    created: "2021-08-19T01:26:20.800168656Z"
     description: A sample Node.js app for testing Docker & Kubernetes
-    digest: 9e8a15671c1a07e20f5d07e7ca1c14651416fc1b403e35a685af22238d4ca5ad
+    digest: c245a3ffa9bf68271f85bee96c032e8b42eb8a4927c7fcc48490c482f67a16b3
     name: docker-node-app
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 2.0.31
   - apiVersion: v2
     appVersion: 2.0.27
-    created: "2021-08-18T07:55:18.298111661Z"
+    created: "2021-08-19T01:26:20.799585652Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: cfd52e2bf00ae523d94136f58035d6dd1122ac5bf14e34897a183bbf746b0540
     name: docker-node-app
@@ -23,7 +23,7 @@ entries:
     version: 2.0.27
   - apiVersion: v2
     appVersion: 2.0.25
-    created: "2021-08-18T07:55:18.297542727Z"
+    created: "2021-08-19T01:26:20.799004849Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 364ebf21e173b6bf54bca370bc88519ac3c15f9db7d35add5101b770c1e17271
     name: docker-node-app
@@ -31,13 +31,24 @@ entries:
     urls:
     - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.25.tgz
     version: 2.0.25
+  kube-cluster:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2021-08-19T01:26:20.80073586Z"
+    description: Documentation for Kubernetes cluster learnings
+    digest: 6d10e8e2c4b349b5986c9481e8088795a2b5675fa131254c479507de981837cc
+    name: kube-cluster
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.1.tgz
+    version: 1.0.1
   paypal-sandbox-dashboard:
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2021-08-18T07:55:18.303089955Z"
+    created: "2021-08-19T01:26:20.805567791Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
-    digest: 12080270739a7296633c92b4c283011ee395d9547c96ec90cc8d235b8fe012cf
+    digest: f2a270edb958b7ba03836d8b4559c58d0e55accd399338f233b4f87ee7c3a05c
     name: paypal-sandbox-dashboard
     type: application
     urls:
@@ -45,7 +56,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.302541623Z"
+    created: "2021-08-19T01:26:20.805013988Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 25699cdcf863108c4abaa47b3db335f91c3c5906ed93794f12a05b0a02306911
@@ -56,7 +67,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.301858283Z"
+    created: "2021-08-19T01:26:20.80381598Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: c6fcda43927914ede39fa49445b0d8b0b80a63abfd1f3d0e697e02241a8f8c93
@@ -67,7 +78,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.30114394Z"
+    created: "2021-08-19T01:26:20.803137276Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 145b17e4194f7f12d3bcd77055d64e613b762480fbb5a8c16826b118ece2c936
@@ -78,7 +89,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.300383295Z"
+    created: "2021-08-19T01:26:20.802459571Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 5d56622ebb95a549b5034328c43b8bf8fb3ddde265bf677908e84a77893892fb
@@ -89,7 +100,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.299706655Z"
+    created: "2021-08-19T01:26:20.801833767Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
@@ -100,7 +111,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-18T07:55:18.29910882Z"
+    created: "2021-08-19T01:26:20.801198363Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
@@ -111,8 +122,18 @@ entries:
     version: 0.1.0
   uptime-monitor:
   - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2021-08-19T01:26:20.808903513Z"
+    description: A Helm chart for Kubernetes
+    digest: 593b7fd6b27d44ce73ef1df12b958e5ce96717b37de3465522f353507e8423b5
+    name: uptime-monitor
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-08-18T07:55:18.304846559Z"
+    created: "2021-08-19T01:26:20.808129408Z"
     description: A Helm chart for Kubernetes
     digest: fc6d52440cfca146a52c2f1fa22c31272fbfdbba3459110af802f4c7607901ff
     name: uptime-monitor
@@ -122,7 +143,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2021-08-18T07:55:18.304263025Z"
+    created: "2021-08-19T01:26:20.807337303Z"
     description: A Helm chart for Kubernetes
     digest: 74dd4e0cfcd8eaced65872736e0f7569c315bd1ee42429a7df89c245ecc2733e
     name: uptime-monitor
@@ -132,7 +153,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3"1.16.0"
-    created: "2021-08-18T07:55:18.303631687Z"
+    created: "2021-08-19T01:26:20.806537798Z"
     description: A Helm chart for Kubernetes
     digest: 8259a61b0178ee7398b1c2d4dadb245be1394d7a1b25656e477fe2dd90b8c260
     name: uptime-monitor
@@ -140,4 +161,4 @@ entries:
     urls:
     - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.3.tgz
     version: 0.1.3
-generated: "2021-08-18T07:55:18.296307754Z"
+generated: "2021-08-19T01:26:20.798182343Z"
