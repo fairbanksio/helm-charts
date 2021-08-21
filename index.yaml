@@ -3,252 +3,272 @@ entries:
   docker-node-app:
   - apiVersion: v2
     appVersion: 2.0.32
-    created: "2021-08-21T04:19:38.355014274Z"
+    created: "2021-08-21T06:33:01.238526226Z"
     description: A sample Node.js app for testing Docker & Kubernetes
-    digest: e339334ada42896168cd871d8edb50583f02abd69569e436ef36be650e7135b6
+    digest: 316424dc879c57dac9fffc327be720491dd3f8f4e592d139146c32a4451cf805
     name: docker-node-app
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.32.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/docker-node-app-2.0.32.tgz
     version: 2.0.32
   - apiVersion: v2
     appVersion: 2.0.31
-    created: "2021-08-21T04:19:38.354500651Z"
+    created: "2021-08-21T06:33:01.237030929Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: de9b8bb4abebc0c2abfea14a4a617adfed18ec6aac531a7594d16ab44e680441
     name: docker-node-app
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.31.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/docker-node-app-2.0.31.tgz
     version: 2.0.31
   - apiVersion: v2
     appVersion: 2.0.27
-    created: "2021-08-21T04:19:38.353916825Z"
+    created: "2021-08-21T06:33:01.235560933Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: cfd52e2bf00ae523d94136f58035d6dd1122ac5bf14e34897a183bbf746b0540
     name: docker-node-app
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.27.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/docker-node-app-2.0.27.tgz
     version: 2.0.27
   - apiVersion: v2
     appVersion: 2.0.25
-    created: "2021-08-21T04:19:38.353279196Z"
+    created: "2021-08-21T06:33:01.229141015Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 364ebf21e173b6bf54bca370bc88519ac3c15f9db7d35add5101b770c1e17271
     name: docker-node-app
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/docker-node-app-2.0.25.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/docker-node-app-2.0.25.tgz
     version: 2.0.25
   kube-cluster:
   - apiVersion: v2
+    appVersion: 1.0.25
+    created: "2021-08-21T06:33:01.242780503Z"
+    description: Documentation for Kubernetes cluster learnings
+    digest: d78811af6c5598e6450cd4dd1dd202f109c71277aef15dd2028fc54cec4b2889
+    name: kube-cluster
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.25.tgz
+    version: 1.0.25
+  - apiVersion: v2
     appVersion: 1.0.23
-    created: "2021-08-21T04:19:38.360375616Z"
+    created: "2021-08-21T06:33:01.242343374Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 074ba72e2f7beddaf4b01f843bc622aaeff5cb349a4606492b651346e874d603
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.23.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.23.tgz
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2021-08-21T04:19:38.35980639Z"
+    created: "2021-08-21T06:33:01.241910946Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 422c883abbb552c5335e583e51b886ac4a6ee2c6e0284fe46f3edbba61821908
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2021-08-21T04:19:38.358673439Z"
+    created: "2021-08-21T06:33:01.241474618Z"
     description: Documentation for Kubernetes cluster learnings
     digest: a1273c5043592b180000ebf8bbae9ad36df402f14295f3a641b5590bb58026bf
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.17.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.17.tgz
     version: 1.0.17
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2021-08-21T04:19:38.357298177Z"
+    created: "2021-08-21T06:33:01.240989986Z"
     description: Documentation for Kubernetes cluster learnings
     digest: e00f7f254b2fad025f9c19b9c269810c60dee74d6244bc825bab245b36a9335e
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.15.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2021-08-21T04:19:38.356306933Z"
+    created: "2021-08-21T06:33:01.240223236Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 26455ad83445ef534aa9678bb9ed041393ed267541eade06622d77b5af27558b
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.14.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-08-21T04:19:38.355697605Z"
+    created: "2021-08-21T06:33:01.239408283Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 34f08c457e0657c334f952e2e4c43cd2e14a10681ed9d812c2268c97224bc134
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.1.tgz
     version: 1.0.1
   paypal-sandbox-dashboard:
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2021-08-21T04:19:38.3644663Z"
+    created: "2021-08-21T06:33:01.246668456Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
-    digest: a436192b757d478afc52182b6619e2f508499796f9cda366a679ed3309753a51
+    digest: a17ce829091328eefa268b9ed460c9708815efdfafaf5ca13b1e86d06814262b
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.10.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.363890774Z"
+    created: "2021-08-21T06:33:01.246250728Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 25699cdcf863108c4abaa47b3db335f91c3c5906ed93794f12a05b0a02306911
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.4.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.363233144Z"
+    created: "2021-08-21T06:33:01.245759697Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: c6fcda43927914ede39fa49445b0d8b0b80a63abfd1f3d0e697e02241a8f8c93
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.4.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.362669119Z"
+    created: "2021-08-21T06:33:01.245315068Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 145b17e4194f7f12d3bcd77055d64e613b762480fbb5a8c16826b118ece2c936
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.3.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.362087793Z"
+    created: "2021-08-21T06:33:01.244760231Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 5d56622ebb95a549b5034328c43b8bf8fb3ddde265bf677908e84a77893892fb
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.3.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.361572769Z"
+    created: "2021-08-21T06:33:01.2442722Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.2.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-21T04:19:38.361028445Z"
+    created: "2021-08-21T06:33:01.24319283Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.1.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.1.0.tgz
     version: 0.1.0
   uptime-monitor:
   - apiVersion: v2
+    appVersion: 0.1.12
+    created: "2021-08-21T06:33:01.247649519Z"
+    description: A Helm chart for Kubernetes
+    digest: a85fbcd5d5705f14ec5e362004874cd40e998a9bc44033635ada2f1486c6554b
+    name: uptime-monitor
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
     appVersion: 0.1.11
-    created: "2021-08-21T04:19:38.365039725Z"
+    created: "2021-08-21T06:33:01.247133986Z"
     description: A Helm chart for Kubernetes
     digest: 0ebd7ec4a93c70068d7e65b31b97f4bde6a5b377a922a3ba1ce9aa4521672406
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.11.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.11.tgz
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2021-08-21T04:19:38.368853097Z"
+    created: "2021-08-21T06:33:01.250952334Z"
     description: A Helm chart for Kubernetes
     digest: 4d46694a5d046c71f5c3310c8ff5ef08396e3863dcb57e1398ce535417675a3e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.8.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2021-08-21T04:19:38.368294172Z"
+    created: "2021-08-21T06:33:01.249931468Z"
     description: A Helm chart for Kubernetes
     digest: 32c525ac27ea9c55f9368017f43379d10d30f8dcb8f8314d9bea7ba68bec621f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.7.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2021-08-21T04:19:38.367656243Z"
+    created: "2021-08-21T06:33:01.249547443Z"
     description: A Helm chart for Kubernetes
     digest: 1c9ecc23caa7f12f9ff9397206271ea274ab806921a4c97b7b302926e893324f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.6.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-08-21T04:19:38.367042816Z"
+    created: "2021-08-21T06:33:01.249107814Z"
     description: A Helm chart for Kubernetes
     digest: fc6d52440cfca146a52c2f1fa22c31272fbfdbba3459110af802f4c7607901ff
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.5.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2021-08-21T04:19:38.366493791Z"
+    created: "2021-08-21T06:33:01.248643984Z"
     description: A Helm chart for Kubernetes
     digest: 74dd4e0cfcd8eaced65872736e0f7569c315bd1ee42429a7df89c245ecc2733e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.4.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3"1.16.0"
-    created: "2021-08-21T04:19:38.365890164Z"
+    created: "2021-08-21T06:33:01.24812235Z"
     description: A Helm chart for Kubernetes
     digest: 8259a61b0178ee7398b1c2d4dadb245be1394d7a1b25656e477fe2dd90b8c260
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.3.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.3.tgz
     version: 0.1.3
-generated: "2021-08-21T04:19:38.352339754Z"
+generated: "2021-08-21T06:33:01.22844377Z"
