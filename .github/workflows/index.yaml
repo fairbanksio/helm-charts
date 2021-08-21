@@ -49,7 +49,7 @@ jobs:
           done <chartsources.txt
 
           # Update the index
-          helm repo index ./packages/ --url https://github.com/fairbanks-io/helm-charts/raw/master/packages/
+          helm repo index ./packages/ --url https://github.com/fairbanks-io/helm-charts/raw/main/packages/
           rm -rf index.yaml
           mv ./packages/index.yaml index.yaml
 
@@ -67,6 +67,6 @@ jobs:
         uses: EndBug/add-and-commit@v7.2.1
         with:
           message: "Automatically rebuild sources and index"
-          push: "origin master --force"
+          push: "origin ${{ github.event.repository.default_branch }} --force"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
