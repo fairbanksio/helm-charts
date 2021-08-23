@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   docker-node-app:
   - apiVersion: v2
+    appVersion: 2.0.34
+    created: "2021-08-23T04:10:53.262391623Z"
+    description: A sample Node.js app for testing Docker & Kubernetes
+    digest: d7cc93cd3e2ce01aa6988ecd68039960a3ede662ea74f6bcbd0fcf4df8c006d6
+    name: docker-node-app
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/docker-node-app-2.0.34.tgz
+    version: 2.0.34
+  - apiVersion: v2
     appVersion: 2.0.33
-    created: "2021-08-23T00:58:34.673966645Z"
+    created: "2021-08-23T04:10:53.261688313Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 73b4eaf5129fadaa7891bb3d676610046947ced7215b43e9b64285ec98ce3e5c
     name: docker-node-app
@@ -13,7 +23,7 @@ entries:
     version: 2.0.33
   - apiVersion: v2
     appVersion: 2.0.32
-    created: "2021-08-23T00:58:34.673321137Z"
+    created: "2021-08-23T04:10:53.261024003Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 19a558e68efd4627ad1d96bd2d3b2d26ab8382a81e098b2583c4703f9563b6f1
     name: docker-node-app
@@ -23,7 +33,7 @@ entries:
     version: 2.0.32
   - apiVersion: v2
     appVersion: 2.0.31
-    created: "2021-08-23T00:58:34.672501727Z"
+    created: "2021-08-23T04:10:53.260347794Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: de9b8bb4abebc0c2abfea14a4a617adfed18ec6aac531a7594d16ab44e680441
     name: docker-node-app
@@ -33,7 +43,7 @@ entries:
     version: 2.0.31
   - apiVersion: v2
     appVersion: 2.0.27
-    created: "2021-08-23T00:58:34.671610716Z"
+    created: "2021-08-23T04:10:53.259778085Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: cfd52e2bf00ae523d94136f58035d6dd1122ac5bf14e34897a183bbf746b0540
     name: docker-node-app
@@ -43,7 +53,7 @@ entries:
     version: 2.0.27
   - apiVersion: v2
     appVersion: 2.0.25
-    created: "2021-08-23T00:58:34.670992509Z"
+    created: "2021-08-23T04:10:53.259137076Z"
     description: A sample Node.js app for testing Docker & Kubernetes
     digest: 364ebf21e173b6bf54bca370bc88519ac3c15f9db7d35add5101b770c1e17271
     name: docker-node-app
@@ -54,9 +64,9 @@ entries:
   kube-cluster:
   - apiVersion: v2
     appVersion: 1.0.31
-    created: "2021-08-23T00:58:34.683097855Z"
+    created: "2021-08-23T04:10:53.271072749Z"
     description: Documentation for Kubernetes cluster learnings
-    digest: 6c65a2a9818daffc4ad7e727722151196b1e3f91bfc6486127c20ecee2da0757
+    digest: 1cf7e3e068fa381072377d5f13b691da72e6d6a3f37d56a42bbadafe31386730
     name: kube-cluster
     type: application
     urls:
@@ -64,7 +74,7 @@ entries:
     version: 1.0.31
   - apiVersion: v2
     appVersion: 1.0.29
-    created: "2021-08-23T00:58:34.682428147Z"
+    created: "2021-08-23T04:10:53.270477641Z"
     description: Documentation for Kubernetes cluster learnings
     digest: ea91955b663f506559150dd7d413db9c5543339d56593a53d2fb26227217c8b2
     name: kube-cluster
@@ -74,7 +84,7 @@ entries:
     version: 1.0.29
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2021-08-23T00:58:34.681715938Z"
+    created: "2021-08-23T04:10:53.269791531Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 81c3c421f6f623f2bd795e52c36f7adf103ad32ea9783d113171ea37fabdfd60
     name: kube-cluster
@@ -84,7 +94,7 @@ entries:
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2021-08-23T00:58:34.681152632Z"
+    created: "2021-08-23T04:10:53.268532912Z"
     description: Documentation for Kubernetes cluster learnings
     digest: dc8918a1c11c96b6ac4f5b92021728f055e9c2b33b1c2b97c9d1c24b4fa51316
     name: kube-cluster
@@ -94,7 +104,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2021-08-23T00:58:34.680433323Z"
+    created: "2021-08-23T04:10:53.267492097Z"
     description: Documentation for Kubernetes cluster learnings
     digest: a64b7d1e59512d792e4fefc375034f1c38f805b175cf9c9f1a0f3e85f367531a
     name: kube-cluster
@@ -104,7 +114,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2021-08-23T00:58:34.679666414Z"
+    created: "2021-08-23T04:10:53.266027676Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 074ba72e2f7beddaf4b01f843bc622aaeff5cb349a4606492b651346e874d603
     name: kube-cluster
@@ -114,7 +124,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2021-08-23T00:58:34.679026106Z"
+    created: "2021-08-23T04:10:53.265324766Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 422c883abbb552c5335e583e51b886ac4a6ee2c6e0284fe46f3edbba61821908
     name: kube-cluster
@@ -124,7 +134,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2021-08-23T00:58:34.678361398Z"
+    created: "2021-08-23T04:10:53.264701457Z"
     description: Documentation for Kubernetes cluster learnings
     digest: a1273c5043592b180000ebf8bbae9ad36df402f14295f3a641b5590bb58026bf
     name: kube-cluster
@@ -134,7 +144,7 @@ entries:
     version: 1.0.17
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2021-08-23T00:58:34.677170783Z"
+    created: "2021-08-23T04:10:53.264122148Z"
     description: Documentation for Kubernetes cluster learnings
     digest: e00f7f254b2fad025f9c19b9c269810c60dee74d6244bc825bab245b36a9335e
     name: kube-cluster
@@ -144,7 +154,7 @@ entries:
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2021-08-23T00:58:34.676156271Z"
+    created: "2021-08-23T04:10:53.26355214Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 26455ad83445ef534aa9678bb9ed041393ed267541eade06622d77b5af27558b
     name: kube-cluster
@@ -154,7 +164,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-08-23T00:58:34.67521276Z"
+    created: "2021-08-23T04:10:53.262965632Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 34f08c457e0657c334f952e2e4c43cd2e14a10681ed9d812c2268c97224bc134
     name: kube-cluster
@@ -164,8 +174,19 @@ entries:
     version: 1.0.1
   paypal-sandbox-dashboard:
   - apiVersion: v2
+    appVersion: 1.0.13
+    created: "2021-08-23T04:10:53.276365926Z"
+    description: Test various features of the PayPal Sandbox using React.js and PayPal's
+      REST SDK
+    digest: d9fcd7225803e7bb369f37eba9a518866ffebd7ed2d0bf3161ce5ee96a8b9d90
+    name: paypal-sandbox-dashboard
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.13.tgz
+    version: 1.0.13
+  - apiVersion: v2
     appVersion: 1.0.11
-    created: "2021-08-23T00:58:34.689163529Z"
+    created: "2021-08-23T04:10:53.275761817Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 32f116ca01550f5c04ac323ca07813a1ee13c753d116f74b8b7e46f960bdeabd
@@ -176,7 +197,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2021-08-23T00:58:34.688380819Z"
+    created: "2021-08-23T04:10:53.275187109Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 92b07ccab1a3c4c885f631320927169627e27ddc4361b7e7da82554b21625457
@@ -187,7 +208,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.687562809Z"
+    created: "2021-08-23T04:10:53.2745847Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 25699cdcf863108c4abaa47b3db335f91c3c5906ed93794f12a05b0a02306911
@@ -198,7 +219,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.686882801Z"
+    created: "2021-08-23T04:10:53.274016192Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: c6fcda43927914ede39fa49445b0d8b0b80a63abfd1f3d0e697e02241a8f8c93
@@ -209,7 +230,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.685657186Z"
+    created: "2021-08-23T04:10:53.273409483Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 145b17e4194f7f12d3bcd77055d64e613b762480fbb5a8c16826b118ece2c936
@@ -220,7 +241,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.684980778Z"
+    created: "2021-08-23T04:10:53.272814674Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 5d56622ebb95a549b5034328c43b8bf8fb3ddde265bf677908e84a77893892fb
@@ -231,7 +252,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.684226169Z"
+    created: "2021-08-23T04:10:53.272276967Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
@@ -242,7 +263,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-08-23T00:58:34.683659762Z"
+    created: "2021-08-23T04:10:53.271558356Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
@@ -253,8 +274,18 @@ entries:
     version: 0.1.0
   uptime-monitor:
   - apiVersion: v2
+    appVersion: 0.1.19
+    created: "2021-08-23T04:10:53.2814384Z"
+    description: A Helm chart for Kubernetes
+    digest: a9145075195b10223f92375628be571bd8b767208803e74fd408d7a1dd511be5
+    name: uptime-monitor
+    type: application
+    urls:
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.19.tgz
+    version: 0.1.19
+  - apiVersion: v2
     appVersion: 0.1.16
-    created: "2021-08-23T00:58:34.69425409Z"
+    created: "2021-08-23T04:10:53.280605988Z"
     description: A Helm chart for Kubernetes
     digest: b6aa66c0eb13a97f53bfb58103d5f4e7eb0393c2f39abff31de1d29f60dec6b0
     name: uptime-monitor
@@ -264,7 +295,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2021-08-23T00:58:34.692691171Z"
+    created: "2021-08-23T04:10:53.279814476Z"
     description: A Helm chart for Kubernetes
     digest: 627bf33b4b4f9b6f362092967d147622f07a26099d10949067b408497e1c8cc2
     name: uptime-monitor
@@ -274,7 +305,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2021-08-23T00:58:34.691922562Z"
+    created: "2021-08-23T04:10:53.279052565Z"
     description: A Helm chart for Kubernetes
     digest: 5df1a7c2d55815a82072a51bf4c3019114831a23e8e1c01bc90291792630c1e1
     name: uptime-monitor
@@ -284,7 +315,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2021-08-23T00:58:34.69096215Z"
+    created: "2021-08-23T04:10:53.278334255Z"
     description: A Helm chart for Kubernetes
     digest: c88dc9bde9e054ae678bc3f7cd448c5797226ff000d1d33e2d94c8ec0c492774
     name: uptime-monitor
@@ -294,7 +325,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2021-08-23T00:58:34.690380943Z"
+    created: "2021-08-23T04:10:53.277624944Z"
     description: A Helm chart for Kubernetes
     digest: 0b79f55ccb0cb4edecee8b309d33f9adf441bc97fed0361d0fbb49de76953c3d
     name: uptime-monitor
@@ -304,7 +335,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2021-08-23T00:58:34.689792236Z"
+    created: "2021-08-23T04:10:53.276994435Z"
     description: A Helm chart for Kubernetes
     digest: 0ebd7ec4a93c70068d7e65b31b97f4bde6a5b377a922a3ba1ce9aa4521672406
     name: uptime-monitor
@@ -314,7 +345,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2021-08-23T00:58:34.699918159Z"
+    created: "2021-08-23T04:10:53.287478387Z"
     description: A Helm chart for Kubernetes
     digest: 4d46694a5d046c71f5c3310c8ff5ef08396e3863dcb57e1398ce535417675a3e
     name: uptime-monitor
@@ -324,7 +355,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2021-08-23T00:58:34.69918315Z"
+    created: "2021-08-23T04:10:53.286820878Z"
     description: A Helm chart for Kubernetes
     digest: 32c525ac27ea9c55f9368017f43379d10d30f8dcb8f8314d9bea7ba68bec621f
     name: uptime-monitor
@@ -334,7 +365,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2021-08-23T00:58:34.698420041Z"
+    created: "2021-08-23T04:10:53.285637761Z"
     description: A Helm chart for Kubernetes
     digest: 1c9ecc23caa7f12f9ff9397206271ea274ab806921a4c97b7b302926e893324f
     name: uptime-monitor
@@ -344,7 +375,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-08-23T00:58:34.697621831Z"
+    created: "2021-08-23T04:10:53.284635246Z"
     description: A Helm chart for Kubernetes
     digest: fc6d52440cfca146a52c2f1fa22c31272fbfdbba3459110af802f4c7607901ff
     name: uptime-monitor
@@ -354,7 +385,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2021-08-23T00:58:34.696921823Z"
+    created: "2021-08-23T04:10:53.283579831Z"
     description: A Helm chart for Kubernetes
     digest: 74dd4e0cfcd8eaced65872736e0f7569c315bd1ee42429a7df89c245ecc2733e
     name: uptime-monitor
@@ -364,7 +395,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3"1.16.0"
-    created: "2021-08-23T00:58:34.695377304Z"
+    created: "2021-08-23T04:10:53.282332213Z"
     description: A Helm chart for Kubernetes
     digest: 8259a61b0178ee7398b1c2d4dadb245be1394d7a1b25656e477fe2dd90b8c260
     name: uptime-monitor
@@ -372,4 +403,4 @@ entries:
     urls:
     - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.3.tgz
     version: 0.1.3
-generated: "2021-08-23T00:58:34.669912195Z"
+generated: "2021-08-23T04:10:53.258175462Z"
