@@ -11,3 +11,4 @@ Local Helm repository for Kubernetes
 - [Paypal-Sandbox-Dashboard](https://github.com/Fairbanks-io/PayPal-Sandbox-Dashboard)
 - [uptime-monitor](https://github.com/Fairbanks-io/uptime-monitor)
 - [kube-cluster](https://github.com/Fairbanks-io/kube-cluster)
+- [f5-client](https://github.com/Fairbanks-io/f5-client)
