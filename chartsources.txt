@@ -1,4 +1,4 @@
 https://github.com/Fairbanks-io/PayPal-Sandbox-Dashboard;chart;Paypal-Sandbox-Dashboard
 https://github.com/Fairbanks-io/uptime-monitor;chart;uptime-monitor
 https://github.com/Fairbanks-io/kube-cluster;chart;kube-cluster
-https://github.com/Fairbanks-io/f5-client;chart;f5-client
+https://github.com/Fairbanks-io/f5oclock;client/chart;f5oclock-client
