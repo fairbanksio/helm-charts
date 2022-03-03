@@ -12,3 +12,4 @@ Local Helm repository for Kubernetes
 - [uptime-monitor](https://github.com/Fairbanks-io/uptime-monitor)
 - [kube-cluster](https://github.com/Fairbanks-io/kube-cluster)
 - [f5oclock-client](https://github.com/Fairbanks-io/f5oclock)
+- [f5oclock-api](https://github.com/Fairbanks-io/f5oclock)
