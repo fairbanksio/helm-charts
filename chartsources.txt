@@ -3,3 +3,4 @@ https://github.com/Fairbanks-io/uptime-monitor;chart;uptime-monitor
 https://github.com/Fairbanks-io/kube-cluster;chart;kube-cluster
 https://github.com/Fairbanks-io/f5oclock;client/chart;f5oclock-client
 https://github.com/Fairbanks-io/f5oclock;api/chart;f5oclock-api
+https://github.com/Fairbanks-io/f5oclock;scraper/chart;f5oclock-scraper
