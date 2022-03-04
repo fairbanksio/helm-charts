@@ -13,3 +13,4 @@ Local Helm repository for Kubernetes
 - [kube-cluster](https://github.com/Fairbanks-io/kube-cluster)
 - [f5oclock-client](https://github.com/Fairbanks-io/f5oclock)
 - [f5oclock-api](https://github.com/Fairbanks-io/f5oclock)
+- [f5oclock-scraper](https://github.com/Fairbanks-io/f5oclock)
