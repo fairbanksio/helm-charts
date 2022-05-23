@@ -3,88 +3,88 @@ entries:
   f5-client:
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2022-05-22T23:49:56.436229389Z"
+    created: "2022-05-23T00:25:58.512501764Z"
     description: Web client for f5 remix
     digest: c3518059e52c0bed1b561ee293f2c7ddd55d042e38282f16a0eb5efa31d067f7
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.13.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.13.tgz
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2022-05-22T23:49:56.435800786Z"
+    created: "2022-05-23T00:25:58.512059758Z"
     description: Web client for f5 remix
     digest: 02c0d3088cf9bc93c2f78cb7d275e967fe4f9c44a8eca25306648264d6bbc0a6
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.12.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.12.tgz
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2022-05-22T23:49:56.435298983Z"
+    created: "2022-05-23T00:25:58.511587652Z"
     description: Web client for f5 remix
     digest: f1ed2c438ca3b3d570a3156294379621da29d0d0da967b24fbc3c4c3f77aaa50
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.11.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.11.tgz
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2022-05-22T23:49:56.43476098Z"
+    created: "2022-05-23T00:25:58.511074845Z"
     description: Web client for f5 remix
     digest: 9b6c076e48852701ca96e010f422ef47b29c0ab96ceed6411fbe7f99f1468f3e
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.10.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2022-05-22T23:49:56.438078099Z"
+    created: "2022-05-23T00:25:58.514524391Z"
     description: Web client for f5 remix
     digest: 36bb80b6168f1378cea8b96c32f4ae4cb66bf35a30c0ab390c98dac0758fbbfa
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.9.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2022-05-22T23:49:56.437607096Z"
+    created: "2022-05-23T00:25:58.513962483Z"
     description: Web client for f5 remix
     digest: 98ae184e27b825d935a18dd6cff1ec462623218c0ea27e1c0c1c12b7aa136645
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.8.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2022-05-22T23:49:56.437170594Z"
+    created: "2022-05-23T00:25:58.513430876Z"
     description: Web client for f5 remix
     digest: 2fe85a7061812e7a86a3cddd0f79594b4ac77f09bb319c90a86b17d93ce1da67
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.7.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-05-22T23:49:56.436711291Z"
+    created: "2022-05-23T00:25:58.51294717Z"
     description: Web client for f5 remix
     digest: bdaaa98bd8fc96410172a3037bda2548e0406d5780d0f773cb35b53bc1a9c814
     name: f5-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5-client-0.1.6.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5-client-0.1.6.tgz
     version: 0.1.6
   f5oclock:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.450708169Z"
+    created: "2022-05-23T00:25:58.529793793Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -99,15 +99,15 @@ entries:
       repository: file://../scraper/chart
       version: ^1.0.18
     description: A Helm chart for f5oclock
-    digest: 9ae0639c227444efd1b6597b975e46080e51e2f1398b0c70defcec5557a5844c
+    digest: 3671a57bea04f1c320e9321183568e82631cae7b0fc3c287f30618a8f4ab70d3
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.22.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.22.tgz
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.449237961Z"
+    created: "2022-05-23T00:25:58.528176871Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -126,11 +126,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.446422545Z"
+    created: "2022-05-23T00:25:58.525163531Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -149,11 +149,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.13.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.444974537Z"
+    created: "2022-05-23T00:25:58.523662912Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -172,11 +172,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.12.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.443521029Z"
+    created: "2022-05-23T00:25:58.521039177Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -195,11 +195,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.11.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.11.tgz
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.441224416Z"
+    created: "2022-05-23T00:25:58.518548144Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -218,11 +218,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.10.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.469227672Z"
+    created: "2022-05-23T00:25:58.541017241Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -241,11 +241,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.9.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.460731925Z"
+    created: "2022-05-23T00:25:58.539509521Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -264,11 +264,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.8.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.459299417Z"
+    created: "2022-05-23T00:25:58.538093403Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -287,11 +287,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.7.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.457795009Z"
+    created: "2022-05-23T00:25:58.536633283Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -310,11 +310,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.6.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.4563354Z"
+    created: "2022-05-23T00:25:58.535213664Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -333,11 +333,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.5.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.454924993Z"
+    created: "2022-05-23T00:25:58.533513642Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -356,11 +356,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.4.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.453466185Z"
+    created: "2022-05-23T00:25:58.531284712Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -379,11 +379,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.3.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.447833553Z"
+    created: "2022-05-23T00:25:58.52660075Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -402,11 +402,11 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.2.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-05-22T23:49:56.439609507Z"
+    created: "2022-05-23T00:25:58.516547717Z"
     dependencies:
     - condition: f5oclock-api.enabled
       name: f5oclock-api
@@ -425,1635 +425,1635 @@ entries:
     name: f5oclock
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-1.0.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-1.0.0.tgz
     version: 1.0.0
   f5oclock-api:
   - apiVersion: v2
     appVersion: 1.0.30
-    created: "2022-05-22T23:49:56.472125688Z"
+    created: "2022-05-23T00:25:58.544933293Z"
     description: API for F5oclock
-    digest: 9589afcf4a4d4e8035629fba92eb8cdc39c33fcf1e94c450dff554f805f446d7
+    digest: 1bc4c427da08ae3829d3e87a3cc5111f12d43448de0ed993497ed17f49b6bb2d
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.30.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.30.tgz
     version: 1.0.30
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2022-05-22T23:49:56.471719786Z"
+    created: "2022-05-23T00:25:58.544509487Z"
     description: API for F5oclock
     digest: 869a92127dbe6608311192035fc951a74833cb25d6ff2ebd7a057e9db207cf9f
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.26.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.26.tgz
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2022-05-22T23:49:56.471313784Z"
+    created: "2022-05-23T00:25:58.544049081Z"
     description: API for F5oclock
     digest: 0f72d8907afb40b8cfaa6ed397e65f11a5bc27113d83e02f00326c03335ea2b0
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.25.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.25.tgz
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.24
-    created: "2022-05-22T23:49:56.470903782Z"
+    created: "2022-05-23T00:25:58.54316667Z"
     description: API for F5oclock
     digest: c9941dd17784edd9f0b3ad649d2887e4d1d1f86604d1f9de4878358bbc46687c
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.24.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.24.tgz
     version: 1.0.24
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2022-05-22T23:49:56.470494679Z"
+    created: "2022-05-23T00:25:58.542290358Z"
     description: API for F5oclock
     digest: 20a96640d890b210249e7f8d3c1404e1eb06c36c587cb3da404dffb014740c87
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.23.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.23.tgz
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2022-05-22T23:49:56.470081877Z"
+    created: "2022-05-23T00:25:58.541866552Z"
     description: API for F5oclock
     digest: 682ed23b6d6e65a57220bb9424d480e2a81fdbcf6f769ae783c8439c0f4e63d0
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.22.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.22.tgz
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.18
-    created: "2022-05-22T23:49:56.469646975Z"
+    created: "2022-05-23T00:25:58.541459347Z"
     description: API for F5oclock
     digest: 337e0821c92c98b9d878a371c8f2c11d091566e69570745b2a854e94b50482f5
     name: f5oclock-api
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-api-1.0.18.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-api-1.0.18.tgz
     version: 1.0.18
   f5oclock-client:
   - apiVersion: v2
     appVersion: 0.1.60
-    created: "2022-05-22T23:49:56.491726897Z"
+    created: "2022-05-23T00:25:58.564580753Z"
     description: Web client for F5oclock
-    digest: 4ba677b4e788f6dfe656408494c2c0a97676d8e8aa9b34ad1ea2019792dac972
+    digest: ba35f3badbdf517b201b0f9022292d2236dc764114eae30ad09e41bc673d3cb5
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.60.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.60.tgz
     version: 0.1.60
   - apiVersion: v2
     appVersion: 0.1.54
-    created: "2022-05-22T23:49:56.491315495Z"
+    created: "2022-05-23T00:25:58.564159247Z"
     description: Web client for F5oclock
     digest: 4d1c0dcb7c8c6196174254043614c3ae0c9ef5ef023dc1fb9b5ab476f28e6c57
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.54.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.54.tgz
     version: 0.1.54
   - apiVersion: v2
     appVersion: 0.1.53
-    created: "2022-05-22T23:49:56.490902693Z"
+    created: "2022-05-23T00:25:58.563741542Z"
     description: Web client for F5oclock
     digest: 2a80044ca3d8988d12dcc468d7991f581ee9c26dadac9555c6123ff99a537ae8
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.53.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.53.tgz
     version: 0.1.53
   - apiVersion: v2
     appVersion: 0.1.52
-    created: "2022-05-22T23:49:56.490493291Z"
+    created: "2022-05-23T00:25:58.563294536Z"
     description: Web client for F5oclock
     digest: d1d093b6eb369f610d5aac22bd754c27a618d7c262d40166389df72047950c45
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.52.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.52.tgz
     version: 0.1.52
   - apiVersion: v2
     appVersion: 0.1.51
-    created: "2022-05-22T23:49:56.490081388Z"
+    created: "2022-05-23T00:25:58.56286793Z"
     description: Web client for F5oclock
     digest: a208a0fc16e7066efac118835c640f6078c96ab8bf4a7b68fb79bb61e20a32d1
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.51.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.51.tgz
     version: 0.1.51
   - apiVersion: v2
     appVersion: 0.1.50
-    created: "2022-05-22T23:49:56.489646386Z"
+    created: "2022-05-23T00:25:58.562421624Z"
     description: Web client for F5oclock
     digest: 6b9c8f088239d8e3ae52d29547ca8dcbe74340db6f8bc025d7c61e0238149652
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.50.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.50.tgz
     version: 0.1.50
   - apiVersion: v2
     appVersion: 0.1.49
-    created: "2022-05-22T23:49:56.489227884Z"
+    created: "2022-05-23T00:25:58.561746916Z"
     description: Web client for F5oclock
     digest: d83c6db1f4856188098b966d18d62e36c9f4658fa3a0fca33a0488173b921036
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.49.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.49.tgz
     version: 0.1.49
   - apiVersion: v2
     appVersion: 0.1.48
-    created: "2022-05-22T23:49:56.488811481Z"
+    created: "2022-05-23T00:25:58.561121707Z"
     description: Web client for F5oclock
     digest: 74b1b93512e0d1fe141e5841f766c3140a79671dd8e95eacd726848c3c374072
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.48.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.48.tgz
     version: 0.1.48
   - apiVersion: v2
     appVersion: 0.1.47
-    created: "2022-05-22T23:49:56.488399679Z"
+    created: "2022-05-23T00:25:58.560323897Z"
     description: Web client for F5oclock
     digest: 612dee47c861243181e613128f3eaa4f64a0b4eec5543797068f9d49f5758a93
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.47.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.47.tgz
     version: 0.1.47
   - apiVersion: v2
     appVersion: 0.1.46
-    created: "2022-05-22T23:49:56.487975777Z"
+    created: "2022-05-23T00:25:58.559912191Z"
     description: Web client for F5oclock
     digest: a51847b5c2f236f6aa35549905799f34516b0dfe6dab10ebce16ab3b6aaad2a1
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.46.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.46.tgz
     version: 0.1.46
   - apiVersion: v2
     appVersion: 0.1.45
-    created: "2022-05-22T23:49:56.487551974Z"
+    created: "2022-05-23T00:25:58.559493686Z"
     description: Web client for F5oclock
     digest: 093c658010822bb9daba6d30e68a74a7d092d23e1700ea7d76bace559ca2aea6
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.45.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.45.tgz
     version: 0.1.45
   - apiVersion: v2
     appVersion: 0.1.44
-    created: "2022-05-22T23:49:56.487121672Z"
+    created: "2022-05-23T00:25:58.55906738Z"
     description: Web client for F5oclock
     digest: 3cfb01365e333f5c0c28bbc6dcf1ea2b9451db14c606b476a854c97ba801d2dc
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.44.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.44.tgz
     version: 0.1.44
   - apiVersion: v2
     appVersion: 0.1.43
-    created: "2022-05-22T23:49:56.486683069Z"
+    created: "2022-05-23T00:25:58.558651075Z"
     description: Web client for F5oclock
     digest: 532adcb243faa402d2a9b2fec4cf078058cae1e8048ef47dfa10f008cf228438
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.43.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.43.tgz
     version: 0.1.43
   - apiVersion: v2
     appVersion: 0.1.42
-    created: "2022-05-22T23:49:56.485969065Z"
+    created: "2022-05-23T00:25:58.558223669Z"
     description: Web client for F5oclock
     digest: ae15d2043c3601f82e0592cbdab7bf687b8c47ca20b5dd31cfc19daff0cf94dc
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.42.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.42.tgz
     version: 0.1.42
   - apiVersion: v2
     appVersion: 0.1.41
-    created: "2022-05-22T23:49:56.485367662Z"
+    created: "2022-05-23T00:25:58.557804363Z"
     description: Web client for F5oclock
     digest: e0f5690909a09a89bff65394f937b3ac58ee453b2a4bfb6f1b579bae56d44fb1
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.41.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.41.tgz
     version: 0.1.41
   - apiVersion: v2
     appVersion: 0.1.40
-    created: "2022-05-22T23:49:56.484535257Z"
+    created: "2022-05-23T00:25:58.557381958Z"
     description: Web client for F5oclock
     digest: 18751fe1fadff3545fbd3b912bc2e1985d0f70a9bfaa5185a9b7e32e14894a3e
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.40.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.40.tgz
     version: 0.1.40
   - apiVersion: v2
     appVersion: 0.1.39
-    created: "2022-05-22T23:49:56.484106555Z"
+    created: "2022-05-23T00:25:58.556925752Z"
     description: Web client for F5oclock
     digest: dbf91491f18098721752f7866995f202303b747128858ea3f243e870b31f3022
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.39.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.39.tgz
     version: 0.1.39
   - apiVersion: v2
     appVersion: 0.1.38
-    created: "2022-05-22T23:49:56.483693053Z"
+    created: "2022-05-23T00:25:58.556506346Z"
     description: Web client for F5oclock
     digest: 232d9e880442e7cddd8931a4ed744d1c5f4d6aa6c9e24ff35b61c72a19f985a0
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.38.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.38.tgz
     version: 0.1.38
   - apiVersion: v2
     appVersion: 0.1.37
-    created: "2022-05-22T23:49:56.48327485Z"
+    created: "2022-05-23T00:25:58.556090341Z"
     description: Web client for F5oclock
     digest: 1012e43e15c88d8b64de98f8849e38c11f32d591ea14cf05b32fdff267513615
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.37.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.37.tgz
     version: 0.1.37
   - apiVersion: v2
     appVersion: 0.1.36
-    created: "2022-05-22T23:49:56.482857248Z"
+    created: "2022-05-23T00:25:58.555675635Z"
     description: Web client for F5oclock
     digest: 5716f35f8c671dd48d1c37c79d82fb7154e0938c528c9a3827b03da0f360a816
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.36.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.36.tgz
     version: 0.1.36
   - apiVersion: v2
     appVersion: 0.1.35
-    created: "2022-05-22T23:49:56.482437146Z"
+    created: "2022-05-23T00:25:58.55525683Z"
     description: Web client for F5oclock
     digest: cc3681d57667ff0384bd52dcb7edc8070d370e20eed53d44d2b8e5b49affcee9
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.35.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.35.tgz
     version: 0.1.35
   - apiVersion: v2
     appVersion: 0.1.34
-    created: "2022-05-22T23:49:56.482016943Z"
+    created: "2022-05-23T00:25:58.554835724Z"
     description: Web client for F5oclock
     digest: 3f8bbb0df7b31e355eba810f03c886d63e03376035586b0077e0d26d8dfd3852
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.34.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.34.tgz
     version: 0.1.34
   - apiVersion: v2
     appVersion: 0.1.33
-    created: "2022-05-22T23:49:56.481577841Z"
+    created: "2022-05-23T00:25:58.554411118Z"
     description: Web client for F5oclock
     digest: 2688d355f84d2753b9c092192368c3942e12043e20831f7c135056cb93df88c8
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.33.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.33.tgz
     version: 0.1.33
   - apiVersion: v2
     appVersion: 0.1.32
-    created: "2022-05-22T23:49:56.481162139Z"
+    created: "2022-05-23T00:25:58.553987813Z"
     description: Web client for F5oclock
     digest: 17a2ead466be3abaadfa63617877b84d0bc3d22d3a6b8cdcc2ec48fe3d1ed1fb
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.32.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.32.tgz
     version: 0.1.32
   - apiVersion: v2
     appVersion: 0.1.31
-    created: "2022-05-22T23:49:56.480745036Z"
+    created: "2022-05-23T00:25:58.553548707Z"
     description: Web client for F5oclock
     digest: 42d8c8da14bdec6467d24b8ae6296bca4113f9c318f2c5597da5a26ef217ba30
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.31.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.31.tgz
     version: 0.1.31
   - apiVersion: v2
     appVersion: 0.1.30
-    created: "2022-05-22T23:49:56.480325934Z"
+    created: "2022-05-23T00:25:58.552764997Z"
     description: Web client for F5oclock
     digest: 003872cf487b0f26cbf5d25544feb6c1d57edd4747676cc3c8c9f897c4b4e179
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.30.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.30.tgz
     version: 0.1.30
   - apiVersion: v2
     appVersion: 0.1.29
-    created: "2022-05-22T23:49:56.479908432Z"
+    created: "2022-05-23T00:25:58.552186389Z"
     description: Web client for F5oclock
     digest: 149841f8cca29ad012bd69c565aec8777fda78cf615ad2259a0fb3aeb8e5eb1d
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.29.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.29.tgz
     version: 0.1.29
   - apiVersion: v2
     appVersion: 0.1.28
-    created: "2022-05-22T23:49:56.479490629Z"
+    created: "2022-05-23T00:25:58.551578081Z"
     description: Web client for F5oclock
     digest: d57ecfa059ba4fc88b3f2946126131ee2de41bbbcd11994eb2ca9d8a74692e3f
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.28.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.28.tgz
     version: 0.1.28
   - apiVersion: v2
     appVersion: 0.1.27
-    created: "2022-05-22T23:49:56.479064727Z"
+    created: "2022-05-23T00:25:58.550932072Z"
     description: Web client for F5oclock
     digest: 1404467337f8f106509585e77d2110ebd37e396e8443ff29782061c1f7f1603d
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.27.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.27.tgz
     version: 0.1.27
   - apiVersion: v2
     appVersion: 0.1.26
-    created: "2022-05-22T23:49:56.478644025Z"
+    created: "2022-05-23T00:25:58.550502867Z"
     description: Web client for F5oclock
     digest: 48c66f3a61149e1634f81f29a6db9332adfd14c5eb25efdef79d9c21067d5cb0
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.26.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.26.tgz
     version: 0.1.26
   - apiVersion: v2
     appVersion: 0.1.25
-    created: "2022-05-22T23:49:56.478228422Z"
+    created: "2022-05-23T00:25:58.550079361Z"
     description: Web client for F5oclock
     digest: 61d89dc69b9f822265812eb539a2a639cd2cf1c35d2c1414fd2016c3010b26bc
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.25.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.25.tgz
     version: 0.1.25
   - apiVersion: v2
     appVersion: 0.1.24
-    created: "2022-05-22T23:49:56.47778612Z"
+    created: "2022-05-23T00:25:58.549608555Z"
     description: Web client for F5oclock
     digest: 915264ff28801bd1d253bfa2f722fde48615795139495795deabb06163d137a9
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.24.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.24.tgz
     version: 0.1.24
   - apiVersion: v2
     appVersion: 0.1.23
-    created: "2022-05-22T23:49:56.477322517Z"
+    created: "2022-05-23T00:25:58.549195449Z"
     description: Web client for F5oclock
     digest: 76957868fe76675755dfeb52f0c010c856a8d71ed83244d08143861b34d5560e
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.23.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.23.tgz
     version: 0.1.23
   - apiVersion: v2
     appVersion: 0.1.22
-    created: "2022-05-22T23:49:56.476646414Z"
+    created: "2022-05-23T00:25:58.548756844Z"
     description: Web client for F5oclock
     digest: 8fddf0b9710a566c878856c7de2097c0f779acb9099a32bb09de8509de4684da
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.22.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.22.tgz
     version: 0.1.22
   - apiVersion: v2
     appVersion: 0.1.21
-    created: "2022-05-22T23:49:56.47605171Z"
+    created: "2022-05-23T00:25:58.548333738Z"
     description: Web client for F5oclock
     digest: 7f1ca3334e2d7170b42094ad94b27fdc6034deae3931a4db07f80fe577b03376
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.21.tgz
     version: 0.1.21
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2022-05-22T23:49:56.475032205Z"
+    created: "2022-05-23T00:25:58.547912532Z"
     description: Web client for F5oclock
     digest: 2923f9c83c136dceaac8aae663939fc13a6744989fc7245a5b2f2f4125ab9c6e
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.20.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.20.tgz
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.19
-    created: "2022-05-22T23:49:56.474619302Z"
+    created: "2022-05-23T00:25:58.547491327Z"
     description: Web client for F5oclock
     digest: aaaf97cefed5348886fe1cec0887936788e168a1918556814d3c4b7af770e891
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.19.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.19.tgz
     version: 0.1.19
   - apiVersion: v2
     appVersion: 0.1.18
-    created: "2022-05-22T23:49:56.4741992Z"
+    created: "2022-05-23T00:25:58.547083121Z"
     description: Web client for F5oclock
     digest: fa2b9f5d5521beef95a0a207e8d379cff7674f5395871b6d9587d772c4a8a506
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.18.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.18.tgz
     version: 0.1.18
   - apiVersion: v2
     appVersion: 0.1.17
-    created: "2022-05-22T23:49:56.473788398Z"
+    created: "2022-05-23T00:25:58.546671916Z"
     description: Web client for F5oclock
     digest: fadc27fff9a80e72593145b01738e5b2355d800ffa363f35805d63729fc9807b
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.17.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.17.tgz
     version: 0.1.17
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2022-05-22T23:49:56.473365995Z"
+    created: "2022-05-23T00:25:58.54624981Z"
     description: Web client for F5oclock
     digest: 25b3fdfb100bf947d7d70739cf34f824201732ebc8414539017231d3e8e3a225
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.16.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.16.tgz
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2022-05-22T23:49:56.472950393Z"
+    created: "2022-05-23T00:25:58.545828505Z"
     description: Web client for F5oclock
     digest: 43410944d7363bdaaf9d0c330d26a253af3cc8b9dafe3232e465e50899a0aedd
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.15.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.15.tgz
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2022-05-22T23:49:56.472539391Z"
+    created: "2022-05-23T00:25:58.545389699Z"
     description: Web client for F5oclock
     digest: 3074bb26dc71ccac5be30977236267fc68509904d333b12f53b1a130d12010c2
     name: f5oclock-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-client-0.1.14.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-client-0.1.14.tgz
     version: 0.1.14
   f5oclock-scraper:
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2022-05-22T23:49:56.492547202Z"
+    created: "2022-05-23T00:25:58.565464765Z"
     description: Scrapers to gather data for f5oclock
-    digest: 333e4a02cc0cb031e627035fd603d07ce5fe82ebbdf4bc676d4a88ab61150795
+    digest: 20822ca01d4835affa053f01b55b5eab72b47db2a42db1b620e2af2c1896c457
     name: f5oclock-scraper
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-scraper-1.0.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-scraper-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2022-05-22T23:49:56.492275501Z"
+    created: "2022-05-23T00:25:58.565178061Z"
     description: Scrapers to gather data for f5oclock
     digest: 6f9e3f9cdc698603621ca0fcdb4b730f61e3d27968f6280caebf0862950afa3e
     name: f5oclock-scraper
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-scraper-1.0.20.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-scraper-1.0.20.tgz
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2022-05-22T23:49:56.492000899Z"
+    created: "2022-05-23T00:25:58.564875357Z"
     description: Scrapers to gather data for f5oclock
     digest: c84e29f3eed77ae702e283991d974ce78be7b386af171fe4a79a898c41923736
     name: f5oclock-scraper
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/f5oclock-scraper-1.0.19.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/f5oclock-scraper-1.0.19.tgz
     version: 1.0.19
   kube-cluster:
   - apiVersion: v2
     appVersion: 1.0.34
-    created: "2022-05-22T23:49:56.498949138Z"
+    created: "2022-05-23T00:25:58.571730648Z"
     description: Documentation for Kubernetes cluster learnings
-    digest: 2505e9a4ee6001af34da41d9d31bf4c51a8fcc3ac0a1c9e42bba1cfe1eae094f
+    digest: 0fe9a429907a06672a1d13b723835d434626431eebb9dfb06f93487763bcf12f
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.34.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.34.tgz
     version: 1.0.34
   - apiVersion: v2
     appVersion: 1.0.32
-    created: "2022-05-22T23:49:56.498550535Z"
+    created: "2022-05-23T00:25:58.571060839Z"
     description: Documentation for Kubernetes cluster learnings
     digest: c001199170df941bfa3edf1cfb53b9fd9f4ed383072c1d6fa8cabc0922d8e73d
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.32.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.32.tgz
     version: 1.0.32
   - apiVersion: v2
     appVersion: 1.0.31
-    created: "2022-05-22T23:49:56.498142933Z"
+    created: "2022-05-23T00:25:58.570500331Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 4a341dfb8c57da9c86994ba74425f83a10f1a7517e1ad599f9e4df5e5f4540fb
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.31.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.31.tgz
     version: 1.0.31
   - apiVersion: v2
     appVersion: 1.0.29
-    created: "2022-05-22T23:49:56.497721731Z"
+    created: "2022-05-23T00:25:58.569688721Z"
     description: Documentation for Kubernetes cluster learnings
     digest: ea91955b663f506559150dd7d413db9c5543339d56593a53d2fb26227217c8b2
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.29.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.29.tgz
     version: 1.0.29
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2022-05-22T23:49:56.497294228Z"
+    created: "2022-05-23T00:25:58.569272215Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 81c3c421f6f623f2bd795e52c36f7adf103ad32ea9783d113171ea37fabdfd60
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.27.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.27.tgz
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2022-05-22T23:49:56.496886926Z"
+    created: "2022-05-23T00:25:58.568834909Z"
     description: Documentation for Kubernetes cluster learnings
     digest: dc8918a1c11c96b6ac4f5b92021728f055e9c2b33b1c2b97c9d1c24b4fa51316
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.26.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.26.tgz
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2022-05-22T23:49:56.496467624Z"
+    created: "2022-05-23T00:25:58.568422204Z"
     description: Documentation for Kubernetes cluster learnings
     digest: a64b7d1e59512d792e4fefc375034f1c38f805b175cf9c9f1a0f3e85f367531a
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.25.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.25.tgz
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2022-05-22T23:49:56.496001821Z"
+    created: "2022-05-23T00:25:58.568015199Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 074ba72e2f7beddaf4b01f843bc622aaeff5cb349a4606492b651346e874d603
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.23.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.23.tgz
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2022-05-22T23:49:56.495544619Z"
+    created: "2022-05-23T00:25:58.567595893Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 422c883abbb552c5335e583e51b886ac4a6ee2c6e0284fe46f3edbba61821908
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2022-05-22T23:49:56.494803615Z"
+    created: "2022-05-23T00:25:58.567184488Z"
     description: Documentation for Kubernetes cluster learnings
     digest: a1273c5043592b180000ebf8bbae9ad36df402f14295f3a641b5590bb58026bf
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.17.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.17.tgz
     version: 1.0.17
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2022-05-22T23:49:56.494240611Z"
+    created: "2022-05-23T00:25:58.566769982Z"
     description: Documentation for Kubernetes cluster learnings
     digest: e00f7f254b2fad025f9c19b9c269810c60dee74d6244bc825bab245b36a9335e
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.15.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2022-05-22T23:49:56.493398007Z"
+    created: "2022-05-23T00:25:58.566354977Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 26455ad83445ef534aa9678bb9ed041393ed267541eade06622d77b5af27558b
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.14.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-05-22T23:49:56.492986104Z"
+    created: "2022-05-23T00:25:58.565933371Z"
     description: Documentation for Kubernetes cluster learnings
     digest: 34f08c457e0657c334f952e2e4c43cd2e14a10681ed9d812c2268c97224bc134
     name: kube-cluster
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/kube-cluster-1.0.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/kube-cluster-1.0.1.tgz
     version: 1.0.1
   paypal-sandbox-dashboard:
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2022-05-22T23:49:56.504629469Z"
+    created: "2022-05-23T00:25:58.577554025Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
-    digest: ece40634178f187b0b7ba308367977a4b0ca181ffbc740e7e0d8abcb2554b5cc
+    digest: 57f1a1dc2c414c9348903d1b4f8a7538e6b5e28ec6c1ba0313e6c0b00f5db424
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.16.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.16.tgz
     version: 1.0.16
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2022-05-22T23:49:56.503958466Z"
+    created: "2022-05-23T00:25:58.577064018Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: ffc6c322bd9c2230e8713136042a9c9e996922ce3368cadfd560bb2bf3711376
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.15.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2022-05-22T23:49:56.503373862Z"
+    created: "2022-05-23T00:25:58.576651413Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: ca074e2e7317c09354f9be2959549d9385e37f6e67c337f7506de78545074912
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.14.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2022-05-22T23:49:56.502549158Z"
+    created: "2022-05-23T00:25:58.576246207Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 3c83233d14b20a9c3d2e70c99edc8ba53ab0e2e8fc3f320db105ee376d376300
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.13.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.11
-    created: "2022-05-22T23:49:56.502122055Z"
+    created: "2022-05-23T00:25:58.575841402Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 32f116ca01550f5c04ac323ca07813a1ee13c753d116f74b8b7e46f960bdeabd
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.11.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.11.tgz
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2022-05-22T23:49:56.501702753Z"
+    created: "2022-05-23T00:25:58.575434297Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 92b07ccab1a3c4c885f631320927169627e27ddc4361b7e7da82554b21625457
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-1.0.10.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.501266051Z"
+    created: "2022-05-23T00:25:58.575021191Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 25699cdcf863108c4abaa47b3db335f91c3c5906ed93794f12a05b0a02306911
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.4.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.500845148Z"
+    created: "2022-05-23T00:25:58.574558485Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: c6fcda43927914ede39fa49445b0d8b0b80a63abfd1f3d0e697e02241a8f8c93
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.4.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.500464946Z"
+    created: "2022-05-23T00:25:58.573339769Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 145b17e4194f7f12d3bcd77055d64e613b762480fbb5a8c16826b118ece2c936
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.3.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.500058244Z"
+    created: "2022-05-23T00:25:58.572893563Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 5d56622ebb95a549b5034328c43b8bf8fb3ddde265bf677908e84a77893892fb
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.3.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.499662242Z"
+    created: "2022-05-23T00:25:58.572507058Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 697be20f43a52ab3dbbc69ae405a23d556a84d0b83b0e2faada11a12da6ae894
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.2.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-22T23:49:56.49928044Z"
+    created: "2022-05-23T00:25:58.572116053Z"
     description: Test various features of the PayPal Sandbox using React.js and PayPal's
       REST SDK
     digest: 0fc36f2a8df2d96c1d9fa62e44d7d914bf8b79ab7c6c1bf0cd09cdf151687574
     name: paypal-sandbox-dashboard
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/paypal-sandbox-dashboard-0.1.0.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/paypal-sandbox-dashboard-0.1.0.tgz
     version: 0.1.0
   tiles-client:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2022-05-22T23:49:56.505877476Z"
+    created: "2022-05-23T00:25:58.578431436Z"
     description: Web client for Tiles application
     digest: b626a642a839b37154905b94d08084d4c426b22641a4232725d9146b1119abb8
     name: tiles-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/tiles-client-1.0.4.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/tiles-client-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.4-beta.1
-    created: "2022-05-22T23:49:56.505245673Z"
+    created: "2022-05-23T00:25:58.578014331Z"
     description: Web client for Tiles application
     digest: 1354cba80e42b9af11a9d547ffb1f98cd91d5fbe4142ab8a533c8fcab3a5a26d
     name: tiles-client
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/tiles-client-1.0.4-beta.1.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/tiles-client-1.0.4-beta.1.tgz
     version: 1.0.4-beta.1
   uptime-monitor:
   - apiVersion: v2
     appVersion: 0.1.91
-    created: "2022-05-22T23:49:56.544091889Z"
+    created: "2022-05-23T00:25:58.617959159Z"
     description: A Helm chart for Kubernetes
-    digest: 089fbe5a880afe932e898499c280c72409e15d5416052eb102a0de06c3b95117
+    digest: 506c14caf462c4dcc5a25e7535578ade2436be99ec913d957e7b5ac2d111b4ab
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.91.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.91.tgz
     version: 0.1.91
   - apiVersion: v2
     appVersion: 0.1.90
-    created: "2022-05-22T23:49:56.543667987Z"
+    created: "2022-05-23T00:25:58.617499353Z"
     description: A Helm chart for Kubernetes
     digest: 18d758ec73cd54d627014a43d2b59e8ae5dfb23b0cd952cdf687ef2279ee7ea1
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.90.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.90.tgz
     version: 0.1.90
   - apiVersion: v2
     appVersion: 0.1.89
-    created: "2022-05-22T23:49:56.543243384Z"
+    created: "2022-05-23T00:25:58.617051047Z"
     description: A Helm chart for Kubernetes
     digest: 0b6d749f2b2eadbae29d55c14fe0b7bfde32e085d870d610359fc9ccf98025c4
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.89.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.89.tgz
     version: 0.1.89
   - apiVersion: v2
     appVersion: 0.1.88
-    created: "2022-05-22T23:49:56.542820582Z"
+    created: "2022-05-23T00:25:58.616623042Z"
     description: A Helm chart for Kubernetes
     digest: 26a079936a4c30c4693616160762af6f1adbaa151e02c2206c61ee8ac94992f6
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.88.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.88.tgz
     version: 0.1.88
   - apiVersion: v2
     appVersion: 0.1.87
-    created: "2022-05-22T23:49:56.542385579Z"
+    created: "2022-05-23T00:25:58.616184536Z"
     description: A Helm chart for Kubernetes
     digest: e2c87c114714fe23f747f5f4b9d3cf41c2acb6dc84f99f003ade913fc6bea7ff
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.87.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.87.tgz
     version: 0.1.87
   - apiVersion: v2
     appVersion: 0.1.86
-    created: "2022-05-22T23:49:56.541955777Z"
+    created: "2022-05-23T00:25:58.615477127Z"
     description: A Helm chart for Kubernetes
     digest: 72e7d796abf038a2e1acd0f9e2ad5e1107aca4b9261dc8b27932d0c61d5b8a2a
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.86.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.86.tgz
     version: 0.1.86
   - apiVersion: v2
     appVersion: 0.1.85
-    created: "2022-05-22T23:49:56.541514275Z"
+    created: "2022-05-23T00:25:58.615055021Z"
     description: A Helm chart for Kubernetes
     digest: 20d648d9c54974e4c471f03596880a4d89f2106dda6423191431d6970da1fb3f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.85.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.85.tgz
     version: 0.1.85
   - apiVersion: v2
     appVersion: 0.1.84
-    created: "2022-05-22T23:49:56.541085372Z"
+    created: "2022-05-23T00:25:58.614628415Z"
     description: A Helm chart for Kubernetes
     digest: 13eb731f3843187938810f4d4d0e8af281a3ceb95e25b2d2ba865a4cbbfaf0bc
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.84.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.84.tgz
     version: 0.1.84
   - apiVersion: v2
     appVersion: 0.1.83
-    created: "2022-05-22T23:49:56.54066217Z"
+    created: "2022-05-23T00:25:58.61419851Z"
     description: A Helm chart for Kubernetes
     digest: 1e29c77c287bef19588b8a12880843f45137647ee3e99736b191a63b532ad17a
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.83.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.83.tgz
     version: 0.1.83
   - apiVersion: v2
     appVersion: 0.1.82
-    created: "2022-05-22T23:49:56.540234367Z"
+    created: "2022-05-23T00:25:58.613772504Z"
     description: A Helm chart for Kubernetes
     digest: 9dc23b16402c78a4f23a1a200c9e21d29d2ccec50cda2e7d7fb4cc397246c3e6
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.82.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.82.tgz
     version: 0.1.82
   - apiVersion: v2
     appVersion: 0.1.81
-    created: "2022-05-22T23:49:56.539807765Z"
+    created: "2022-05-23T00:25:58.613330398Z"
     description: A Helm chart for Kubernetes
     digest: 489fd6779c9100e5de9abe5dff8e43efb393a383b7c0b9aaf512355255ff8b9e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.81.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.81.tgz
     version: 0.1.81
   - apiVersion: v2
     appVersion: 0.1.80
-    created: "2022-05-22T23:49:56.539377063Z"
+    created: "2022-05-23T00:25:58.612875792Z"
     description: A Helm chart for Kubernetes
     digest: 67cb48781907740c230307c8ef074cbfe3ecccf1dc7394d17f05667a85d34489
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.80.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.80.tgz
     version: 0.1.80
   - apiVersion: v2
     appVersion: 0.1.79
-    created: "2022-05-22T23:49:56.538524358Z"
+    created: "2022-05-23T00:25:58.612016181Z"
     description: A Helm chart for Kubernetes
     digest: 658b3906118fde7c6f6e3ef62789fc83d300325876fb2e95bea824e72331be56
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.79.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.79.tgz
     version: 0.1.79
   - apiVersion: v2
     appVersion: 0.1.78
-    created: "2022-05-22T23:49:56.538090956Z"
+    created: "2022-05-23T00:25:58.611580075Z"
     description: A Helm chart for Kubernetes
     digest: 007cb1d575fce5a89f2a723c7af176c2d0f34714f34357d3a9de1b5bf92b371a
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.78.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.78.tgz
     version: 0.1.78
   - apiVersion: v2
     appVersion: 0.1.77
-    created: "2022-05-22T23:49:56.537628653Z"
+    created: "2022-05-23T00:25:58.611108969Z"
     description: A Helm chart for Kubernetes
     digest: 1f080d89af2782993688fb8a3dd687e483f1c636a44c6adfb4810874b2665059
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.77.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.77.tgz
     version: 0.1.77
   - apiVersion: v2
     appVersion: 0.1.76
-    created: "2022-05-22T23:49:56.537189751Z"
+    created: "2022-05-23T00:25:58.610269258Z"
     description: A Helm chart for Kubernetes
     digest: 2b16e53dc8f5658edcce7287201d6d87704d159700d87febdf4bf32f9827f6f4
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.76.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.76.tgz
     version: 0.1.76
   - apiVersion: v2
     appVersion: 0.1.75
-    created: "2022-05-22T23:49:56.536606147Z"
+    created: "2022-05-23T00:25:58.60967155Z"
     description: A Helm chart for Kubernetes
     digest: c631a0996ae058bf7e515842a4376120c12c2a0918ff2df5310b5536e455546d
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.75.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.75.tgz
     version: 0.1.75
   - apiVersion: v2
     appVersion: 0.1.74
-    created: "2022-05-22T23:49:56.535736942Z"
+    created: "2022-05-23T00:25:58.608851439Z"
     description: A Helm chart for Kubernetes
     digest: b8953d11108f7018b2e784f3b22d82686d349414c0f964cdca21820aef7fb8e3
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.74.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.74.tgz
     version: 0.1.74
   - apiVersion: v2
     appVersion: 0.1.73
-    created: "2022-05-22T23:49:56.534871338Z"
+    created: "2022-05-23T00:25:58.608423533Z"
     description: A Helm chart for Kubernetes
     digest: 0a27c2d9f48736bd137e79f878d43ca3fbefc72bcbf486f6bb3e9b639787767c
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.73.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.73.tgz
     version: 0.1.73
   - apiVersion: v2
     appVersion: 0.1.72
-    created: "2022-05-22T23:49:56.534439535Z"
+    created: "2022-05-23T00:25:58.607989128Z"
     description: A Helm chart for Kubernetes
     digest: a5ca17cb32e4cbd1060f4ee62cc7363d3f9304da4bc923f34057268e4121ad98
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.72.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.72.tgz
     version: 0.1.72
   - apiVersion: v2
     appVersion: 0.1.71
-    created: "2022-05-22T23:49:56.534007333Z"
+    created: "2022-05-23T00:25:58.607550022Z"
     description: A Helm chart for Kubernetes
     digest: ab486e1418e798631fb82de263b59e7f2e6e3d6cb0f3474a7151174ec520de06
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.71.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.71.tgz
     version: 0.1.71
   - apiVersion: v2
     appVersion: 0.1.70
-    created: "2022-05-22T23:49:56.53355803Z"
+    created: "2022-05-23T00:25:58.607119316Z"
     description: A Helm chart for Kubernetes
     digest: 4aea9db707e7de9a752c40f91a2f09b8fd0e2020b85d9da49396fcc06fbfa39e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.70.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.70.tgz
     version: 0.1.70
   - apiVersion: v2
     appVersion: 0.1.69
-    created: "2022-05-22T23:49:56.532729726Z"
+    created: "2022-05-23T00:25:58.606270605Z"
     description: A Helm chart for Kubernetes
     digest: 4b32a182523e79bcf7711e0b6f49160de6c37beba2b61932de7a7a37c46af290
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.69.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.69.tgz
     version: 0.1.69
   - apiVersion: v2
     appVersion: 0.1.68
-    created: "2022-05-22T23:49:56.532306723Z"
+    created: "2022-05-23T00:25:58.605841299Z"
     description: A Helm chart for Kubernetes
     digest: 956d360e22830b6f81ece291f518d5a01e48eb84dbaac2a43c888423a9a700df
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.68.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.68.tgz
     version: 0.1.68
   - apiVersion: v2
     appVersion: 0.1.66
-    created: "2022-05-22T23:49:56.531874621Z"
+    created: "2022-05-23T00:25:58.605401693Z"
     description: A Helm chart for Kubernetes
     digest: 5cc5184a0f9ecaee5919c602229030abf22ed01df5b805680b9e5bfd6e8fd821
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.66.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.66.tgz
     version: 0.1.66
   - apiVersion: v2
     appVersion: 0.1.65
-    created: "2022-05-22T23:49:56.531451919Z"
+    created: "2022-05-23T00:25:58.604941887Z"
     description: A Helm chart for Kubernetes
     digest: eeb3c3f8dddce4f12a0d953da7e50f211e91f1e02895c6ab24de0586faaceff1
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.65.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.65.tgz
     version: 0.1.65
   - apiVersion: v2
     appVersion: 0.1.64
-    created: "2022-05-22T23:49:56.531032916Z"
+    created: "2022-05-23T00:25:58.604507581Z"
     description: A Helm chart for Kubernetes
     digest: b53473286dd116207a6a41173f1b0c21425f1b22884a5d04c518449445d30422
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.64.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.64.tgz
     version: 0.1.64
   - apiVersion: v2
     appVersion: 0.1.63
-    created: "2022-05-22T23:49:56.530608814Z"
+    created: "2022-05-23T00:25:58.604052175Z"
     description: A Helm chart for Kubernetes
     digest: 3f13b4cd6bc80e355736815214c9d05ad55f46fae4766dd351a6391a32d7cb20
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.63.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.63.tgz
     version: 0.1.63
   - apiVersion: v2
     appVersion: 0.1.62
-    created: "2022-05-22T23:49:56.530180411Z"
+    created: "2022-05-23T00:25:58.60362027Z"
     description: A Helm chart for Kubernetes
     digest: d624c5e467394d2e51a1dea401da2a2fdd6b53f8503a662fbf872b41b65b740a
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.62.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.62.tgz
     version: 0.1.62
   - apiVersion: v2
     appVersion: 0.1.61
-    created: "2022-05-22T23:49:56.529750709Z"
+    created: "2022-05-23T00:25:58.603181764Z"
     description: A Helm chart for Kubernetes
     digest: 40953c51658d76f3398c482b250185982709cdf5d3ef6ec6e2832b853bc9f6a5
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.61.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.61.tgz
     version: 0.1.61
   - apiVersion: v2
     appVersion: 0.1.60
-    created: "2022-05-22T23:49:56.529295507Z"
+    created: "2022-05-23T00:25:58.602735558Z"
     description: A Helm chart for Kubernetes
     digest: c71bb98dfc6b59e6bd17b0232a17b13e8773250f1ebda77fcefd89c19677e47c
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.60.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.60.tgz
     version: 0.1.60
   - apiVersion: v2
     appVersion: 0.1.59
-    created: "2022-05-22T23:49:56.528445202Z"
+    created: "2022-05-23T00:25:58.601844646Z"
     description: A Helm chart for Kubernetes
     digest: 8ade12507209a8c443c449c421a7f08afee1611b2255194baa2e61ed36a487cb
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.59.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.59.tgz
     version: 0.1.59
   - apiVersion: v2
     appVersion: 0.1.58
-    created: "2022-05-22T23:49:56.528007199Z"
+    created: "2022-05-23T00:25:58.60139624Z"
     description: A Helm chart for Kubernetes
     digest: 3f8e1320f0f726586ac08c5a408752edb9e3c55fe6c5bb4e3982d606cd362bba
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.58.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.58.tgz
     version: 0.1.58
   - apiVersion: v2
     appVersion: 0.1.57
-    created: "2022-05-22T23:49:56.527579497Z"
+    created: "2022-05-23T00:25:58.600735032Z"
     description: A Helm chart for Kubernetes
     digest: def0babd70c2fa24d7a3bd0d82c2b599861f8a3b47da9eb8ef2d612dbebc4176
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.57.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.57.tgz
     version: 0.1.57
   - apiVersion: v2
     appVersion: 0.1.56
-    created: "2022-05-22T23:49:56.527143895Z"
+    created: "2022-05-23T00:25:58.600139824Z"
     description: A Helm chart for Kubernetes
     digest: 04192c883ea88ac642805f4fe77c55b11fedbaccf1e0d1ce35757016411e4256
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.56.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.56.tgz
     version: 0.1.56
   - apiVersion: v2
     appVersion: 0.1.55
-    created: "2022-05-22T23:49:56.526680192Z"
+    created: "2022-05-23T00:25:58.599539016Z"
     description: A Helm chart for Kubernetes
     digest: eb7e939c09264b79d6102c0860163b64a486389d24388160da62b575b517f146
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.55.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.55.tgz
     version: 0.1.55
   - apiVersion: v2
     appVersion: 0.1.54
-    created: "2022-05-22T23:49:56.526021788Z"
+    created: "2022-05-23T00:25:58.598762905Z"
     description: A Helm chart for Kubernetes
     digest: 784e020dd406e1d507ed6fb3f9b3450bfc817329ca12480eb6ddbed65afea637
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.54.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.54.tgz
     version: 0.1.54
   - apiVersion: v2
     appVersion: 0.1.53
-    created: "2022-05-22T23:49:56.525322884Z"
+    created: "2022-05-23T00:25:58.5983258Z"
     description: A Helm chart for Kubernetes
     digest: e31b3184d13af99b38af92f672fc448ae88060f01d296ba327a88693da0646de
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.53.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.53.tgz
     version: 0.1.53
   - apiVersion: v2
     appVersion: 0.1.52
-    created: "2022-05-22T23:49:56.524743981Z"
+    created: "2022-05-23T00:25:58.597884394Z"
     description: A Helm chart for Kubernetes
     digest: 6f3200b1cedcc04cfcb0048c0792745151f4aa3e932db02c75908800a3344552
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.52.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.52.tgz
     version: 0.1.52
   - apiVersion: v2
     appVersion: 0.1.51
-    created: "2022-05-22T23:49:56.524145078Z"
+    created: "2022-05-23T00:25:58.597449888Z"
     description: A Helm chart for Kubernetes
     digest: b60f7a9c58ce94e60645a59cca7ad43e2d68aa2b4df216c6dadb210f8729f5b4
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.51.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.51.tgz
     version: 0.1.51
   - apiVersion: v2
     appVersion: 0.1.50
-    created: "2022-05-22T23:49:56.523450074Z"
+    created: "2022-05-23T00:25:58.596991582Z"
     description: A Helm chart for Kubernetes
     digest: 58e92a19f85fd9fa9e25b4cabc2a74d38cceefaf4baf9016f0731ca29e2ddc7b
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.50.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.50.tgz
     version: 0.1.50
   - apiVersion: v2
     appVersion: 0.1.49
-    created: "2022-05-22T23:49:56.522601169Z"
+    created: "2022-05-23T00:25:58.596143671Z"
     description: A Helm chart for Kubernetes
     digest: 0ab068295f8e9d397d50ffc94515673d0664f122a39cb6b9e1528893e28eb1ae
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.49.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.49.tgz
     version: 0.1.49
   - apiVersion: v2
     appVersion: 0.1.48
-    created: "2022-05-22T23:49:56.522171167Z"
+    created: "2022-05-23T00:25:58.595700865Z"
     description: A Helm chart for Kubernetes
     digest: c20d29d5c0e88177e9f0061f615520c47efaced4d4a8fc35bb849274731eca17
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.48.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.48.tgz
     version: 0.1.48
   - apiVersion: v2
     appVersion: 0.1.47
-    created: "2022-05-22T23:49:56.521739865Z"
+    created: "2022-05-23T00:25:58.595276259Z"
     description: A Helm chart for Kubernetes
     digest: 2d5e7a63ed7ea6f1002dd27a831f09909c224747524c67a027b30b9b660a2e68
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.47.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.47.tgz
     version: 0.1.47
   - apiVersion: v2
     appVersion: 0.1.46
-    created: "2022-05-22T23:49:56.521295662Z"
+    created: "2022-05-23T00:25:58.594843254Z"
     description: A Helm chart for Kubernetes
     digest: 5ef0d71123a2f9957ce13b0545bbb366058244be6499a1346f6dd43ff0b0b63b
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.46.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.46.tgz
     version: 0.1.46
   - apiVersion: v2
     appVersion: 0.1.45
-    created: "2022-05-22T23:49:56.52085416Z"
+    created: "2022-05-23T00:25:58.594408348Z"
     description: A Helm chart for Kubernetes
     digest: e962610154101fc313b9d2c9d92819c7c40b7f4375bcc286ffb5fc34bda32d22
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.45.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.45.tgz
     version: 0.1.45
   - apiVersion: v2
     appVersion: 0.1.44
-    created: "2022-05-22T23:49:56.520427457Z"
+    created: "2022-05-23T00:25:58.593977542Z"
     description: A Helm chart for Kubernetes
     digest: 2dcccf0ff801f27c1bbba719eabfa08c2a77365508e7c39ca38ff99e9720e90c
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.44.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.44.tgz
     version: 0.1.44
   - apiVersion: v2
     appVersion: 0.1.43
-    created: "2022-05-22T23:49:56.520004155Z"
+    created: "2022-05-23T00:25:58.593533836Z"
     description: A Helm chart for Kubernetes
     digest: 2b724ed571c367be136151f9ece874be8b72e3d8c88ebc9718ea6dea788c36c6
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.43.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.43.tgz
     version: 0.1.43
   - apiVersion: v2
     appVersion: 0.1.42
-    created: "2022-05-22T23:49:56.519569252Z"
+    created: "2022-05-23T00:25:58.59308063Z"
     description: A Helm chart for Kubernetes
     digest: 2a02ba44abbff8d53332b8f0c8b4be076e805feda1a3434ed46912ea1703beb9
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.42.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.42.tgz
     version: 0.1.42
   - apiVersion: v2
     appVersion: 0.1.41
-    created: "2022-05-22T23:49:56.51913945Z"
+    created: "2022-05-23T00:25:58.592638024Z"
     description: A Helm chart for Kubernetes
     digest: a63f33927d4da212ccde0ab711437af513bdd9ec5e6ca94a7d365f1db0ff55d7
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.41.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.41.tgz
     version: 0.1.41
   - apiVersion: v2
     appVersion: 0.1.40
-    created: "2022-05-22T23:49:56.518716648Z"
+    created: "2022-05-23T00:25:58.592221019Z"
     description: A Helm chart for Kubernetes
     digest: 77a6d09d7241bd4948aa2a050153f3264a86a3a38234dc518ac34f131f7bc002
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.40.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.40.tgz
     version: 0.1.40
   - apiVersion: v2
     appVersion: 0.1.39
-    created: "2022-05-22T23:49:56.517877743Z"
+    created: "2022-05-23T00:25:58.591338607Z"
     description: A Helm chart for Kubernetes
     digest: 37345666c9bb8790888fbe6523ac70da93c352b33514470eff832c8647da48bd
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.39.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.39.tgz
     version: 0.1.39
   - apiVersion: v2
     appVersion: 0.1.38
-    created: "2022-05-22T23:49:56.51741264Z"
+    created: "2022-05-23T00:25:58.590625898Z"
     description: A Helm chart for Kubernetes
     digest: fbc05e530baf3fcc8c75e14305a4b743070c3ae1ebf789c76087002ed69df0bf
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.38.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.38.tgz
     version: 0.1.38
   - apiVersion: v2
     appVersion: 0.1.37
-    created: "2022-05-22T23:49:56.516988438Z"
+    created: "2022-05-23T00:25:58.59005059Z"
     description: A Helm chart for Kubernetes
     digest: 7848923fa54049f9ecec59a5d67b107ee27d88a96e41cf8f517b4b234e05f12b
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.37.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.37.tgz
     version: 0.1.37
   - apiVersion: v2
     appVersion: 0.1.36
-    created: "2022-05-22T23:49:56.516529136Z"
+    created: "2022-05-23T00:25:58.589232679Z"
     description: A Helm chart for Kubernetes
     digest: 9c33f092091c432080f1a90fdb8220fa95c927e146b786fd5cc8d788a663bdc9
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.36.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.36.tgz
     version: 0.1.36
   - apiVersion: v2
     appVersion: 0.1.35
-    created: "2022-05-22T23:49:56.515780431Z"
+    created: "2022-05-23T00:25:58.588797474Z"
     description: A Helm chart for Kubernetes
     digest: 5715782cf291a0a2b5cb47527ce1c81f26752464d52d79c682b8bb126e4a42c0
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.35.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.35.tgz
     version: 0.1.35
   - apiVersion: v2
     appVersion: 0.1.34
-    created: "2022-05-22T23:49:56.515189428Z"
+    created: "2022-05-23T00:25:58.588374168Z"
     description: A Helm chart for Kubernetes
     digest: 3ebe60a6204b1676fe9727adf55a5f2cdbabb9f3553452ae7ef0dc116a5af409
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.34.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.34.tgz
     version: 0.1.34
   - apiVersion: v2
     appVersion: 0.1.33
-    created: "2022-05-22T23:49:56.514565225Z"
+    created: "2022-05-23T00:25:58.587952262Z"
     description: A Helm chart for Kubernetes
     digest: 41b6509c6b0c9fba24316677e7d4d6d1ecb07862887d0b8e470c7b0d87a2b433
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.33.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.33.tgz
     version: 0.1.33
   - apiVersion: v2
     appVersion: 0.1.32
-    created: "2022-05-22T23:49:56.513921721Z"
+    created: "2022-05-23T00:25:58.587484756Z"
     description: A Helm chart for Kubernetes
     digest: 56cd4a9828c5407929c763ba5dbb4c1fb4987251250bb958de4e30872f644487
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.32.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.32.tgz
     version: 0.1.32
   - apiVersion: v2
     appVersion: 0.1.30
-    created: "2022-05-22T23:49:56.513493519Z"
+    created: "2022-05-23T00:25:58.587057251Z"
     description: A Helm chart for Kubernetes
     digest: a7a55c910b38a2c1b02a9ff6476854503791c3bc550a605726a087c292e32552
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.30.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.30.tgz
     version: 0.1.30
   - apiVersion: v2
     appVersion: 0.1.29
-    created: "2022-05-22T23:49:56.512672814Z"
+    created: "2022-05-23T00:25:58.58623084Z"
     description: A Helm chart for Kubernetes
     digest: 472a737a3657b8a7c4d66a9e6239e6c17fe7ace4c5fffce5b38497a209fdd461
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.29.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.29.tgz
     version: 0.1.29
   - apiVersion: v2
     appVersion: 0.1.28
-    created: "2022-05-22T23:49:56.512266612Z"
+    created: "2022-05-23T00:25:58.585815234Z"
     description: A Helm chart for Kubernetes
     digest: bd9fc9c567715bf4ce18454f7c918b788de5510fdc33ab0bc9430b48b146fb0f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.28.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.28.tgz
     version: 0.1.28
   - apiVersion: v2
     appVersion: 0.1.27
-    created: "2022-05-22T23:49:56.51185561Z"
+    created: "2022-05-23T00:25:58.585391628Z"
     description: A Helm chart for Kubernetes
     digest: bdd9de14c8ae29251015687b5b274881e20fda8dc8fb2e256952a34f00db783c
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.27.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.27.tgz
     version: 0.1.27
   - apiVersion: v2
     appVersion: 0.1.26
-    created: "2022-05-22T23:49:56.511447607Z"
+    created: "2022-05-23T00:25:58.584939622Z"
     description: A Helm chart for Kubernetes
     digest: 973f549af2d649f5a4fdd828f66ca561ff5d42c47c2fcb355d0ee64a6a0fc707
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.26.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.26.tgz
     version: 0.1.26
   - apiVersion: v2
     appVersion: 0.1.24
-    created: "2022-05-22T23:49:56.511040005Z"
+    created: "2022-05-23T00:25:58.584522917Z"
     description: A Helm chart for Kubernetes
     digest: 346a4f519791bdc5b6e146992c38354283270f1bc057e8c33be1fd76801b12d3
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.24.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.24.tgz
     version: 0.1.24
   - apiVersion: v2
     appVersion: 0.1.23
-    created: "2022-05-22T23:49:56.510633303Z"
+    created: "2022-05-23T00:25:58.584105111Z"
     description: A Helm chart for Kubernetes
     digest: d45b90c0baff1d75b45c2703eae8f0d3056d119ef85fc358aeb0066221b084d4
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.23.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.23.tgz
     version: 0.1.23
   - apiVersion: v2
     appVersion: 0.1.22
-    created: "2022-05-22T23:49:56.5102232Z"
+    created: "2022-05-23T00:25:58.583681106Z"
     description: A Helm chart for Kubernetes
     digest: 36b006d127dc69d57472fd7741b980679544062b1d42d8600ba0531cd8b927ec
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.22.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.22.tgz
     version: 0.1.22
   - apiVersion: v2
     appVersion: 0.1.21
-    created: "2022-05-22T23:49:56.509809098Z"
+    created: "2022-05-23T00:25:58.5832428Z"
     description: A Helm chart for Kubernetes
     digest: d17b00488a0fdd402230f15e8e85dfdd743111b51b88d81547c46e21f7f5031b
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.21.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.21.tgz
     version: 0.1.21
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2022-05-22T23:49:56.509355496Z"
+    created: "2022-05-23T00:25:58.582789594Z"
     description: A Helm chart for Kubernetes
     digest: 6bb9bdddc82bd49fd43ee0c4e829ce1fb79359f168a5bd3dc51a26db63208d4e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.20.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.20.tgz
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.19
-    created: "2022-05-22T23:49:56.508943493Z"
+    created: "2022-05-23T00:25:58.582352488Z"
     description: A Helm chart for Kubernetes
     digest: 13588f294d37c0e41cce6c8a9845f7853c791f6e9e07cfadcc6b562e6deaf5d0
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.19.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.19.tgz
     version: 0.1.19
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2022-05-22T23:49:56.508527391Z"
+    created: "2022-05-23T00:25:58.581907382Z"
     description: A Helm chart for Kubernetes
     digest: b6aa66c0eb13a97f53bfb58103d5f4e7eb0393c2f39abff31de1d29f60dec6b0
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.16.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.16.tgz
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2022-05-22T23:49:56.508111589Z"
+    created: "2022-05-23T00:25:58.581109872Z"
     description: A Helm chart for Kubernetes
     digest: 627bf33b4b4f9b6f362092967d147622f07a26099d10949067b408497e1c8cc2
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.15.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.15.tgz
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2022-05-22T23:49:56.507696686Z"
+    created: "2022-05-23T00:25:58.580543564Z"
     description: A Helm chart for Kubernetes
     digest: 5df1a7c2d55815a82072a51bf4c3019114831a23e8e1c01bc90291792630c1e1
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.14.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.14.tgz
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2022-05-22T23:49:56.507280084Z"
+    created: "2022-05-23T00:25:58.579916756Z"
     description: A Helm chart for Kubernetes
     digest: c88dc9bde9e054ae678bc3f7cd448c5797226ff000d1d33e2d94c8ec0c492774
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.13.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.13.tgz
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2022-05-22T23:49:56.506860182Z"
+    created: "2022-05-23T00:25:58.579278948Z"
     description: A Helm chart for Kubernetes
     digest: 0b79f55ccb0cb4edecee8b309d33f9adf441bc97fed0361d0fbb49de76953c3d
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.12.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.12.tgz
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2022-05-22T23:49:56.506427479Z"
+    created: "2022-05-23T00:25:58.578859142Z"
     description: A Helm chart for Kubernetes
     digest: 0ebd7ec4a93c70068d7e65b31b97f4bde6a5b377a922a3ba1ce9aa4521672406
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.11.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.11.tgz
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2022-05-22T23:49:56.53894356Z"
+    created: "2022-05-23T00:25:58.612444286Z"
     description: A Helm chart for Kubernetes
     digest: 4d46694a5d046c71f5c3310c8ff5ef08396e3863dcb57e1398ce535417675a3e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.8.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2022-05-22T23:49:56.533139928Z"
+    created: "2022-05-23T00:25:58.60668881Z"
     description: A Helm chart for Kubernetes
     digest: 32c525ac27ea9c55f9368017f43379d10d30f8dcb8f8314d9bea7ba68bec621f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.7.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-05-22T23:49:56.528862804Z"
+    created: "2022-05-23T00:25:58.602273152Z"
     description: A Helm chart for Kubernetes
     digest: 1c9ecc23caa7f12f9ff9397206271ea274ab806921a4c97b7b302926e893324f
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.6.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2022-05-22T23:49:56.523013972Z"
+    created: "2022-05-23T00:25:58.596558276Z"
     description: A Helm chart for Kubernetes
     digest: fc6d52440cfca146a52c2f1fa22c31272fbfdbba3459110af802f4c7607901ff
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.5.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2022-05-22T23:49:56.518301545Z"
+    created: "2022-05-23T00:25:58.591798313Z"
     description: A Helm chart for Kubernetes
     digest: 74dd4e0cfcd8eaced65872736e0f7569c315bd1ee42429a7df89c245ecc2733e
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.4.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3"1.16.0"
-    created: "2022-05-22T23:49:56.513079516Z"
+    created: "2022-05-23T00:25:58.586638645Z"
     description: A Helm chart for Kubernetes
     digest: 8259a61b0178ee7398b1c2d4dadb245be1394d7a1b25656e477fe2dd90b8c260
     name: uptime-monitor
     type: application
     urls:
-    - https://github.com/fairbanks-io/helm-charts/raw/master/packages/uptime-monitor-0.1.3.tgz
+    - https://github.com/fairbanks-io/helm-charts/raw/main/packages/uptime-monitor-0.1.3.tgz
     version: 0.1.3
-generated: "2022-05-22T23:49:56.434134377Z"
+generated: "2022-05-23T00:25:58.509882729Z"
